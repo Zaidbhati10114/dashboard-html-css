@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Admin Dashboard</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+
+<!--sidebar start -->
+	<div class="mobile-menu">
+		<h3>M-SoftTech <i class='bx bx-menu'id="mbmenu"></i></h3>
+
+		<ul class="sidemenu hidden">
+		
+		<li><a > Home</a></li>
+		<li><a >Analist</li>
+		<li><a >castle</a></li>
+		<li><a >Mail</a></li>
+		<li><a >play</a></li>
+		<li><a >User</a></li>
+		<li><a >Notes</a></li>
+		<li><a >dollar</a></li>
+		<li><a >Settings</a></li>
+	</ul>
+	</div>
+
+<div class="sidebar">
+	
+	<i class='bx bx-chevron-right dirarrow'></i>
+	<i class='bx bx-chevron-left dirarrowright'></i>
+	<ul class="sidemenu">
+		<h3>M<span>-SoftTech</span></h3>
+		<li><a ><i class='bx bx-home-alt'></i> Home</a></li>
+		<li><a ><i class='bx bx-bar-chart-square' ></i> Analist</li>
+		<li><a ><i class='bx bxs-castle'></i> castle</a></li>
+		<li><a ><i class='bx bx-envelope' ></i> Mail</a></li>
+		<li><a ><i class='bx bx-play-circle' ></i> play</a></li>
+		<li><a ><i class='bx bx-user-circle'></i> User</a></li>
+		<li><a ><i class='bx bx-notepad'></i> Notes</a></li>
+		<li><a ><i class='bx bx-dollar-circle' ></i> dollar</a></li>
+		<li><a ><i class='bx bx-cog' ></i> Settings</a></li>
+	</ul>
+
+	
+</div>
+
+<!--sidebar start -->
+
+
+<!--main-content start --->
+<div class="main-content">
+	<h2>Good Moring, Manoj!</h2>
+
+	<div class="box">
+		<img src="image/i1.png" class="iconimg" />
+		<i class='bx bx-dots-vertical-rounded dots3' ></i>
+		<h2>$43222</h2>
+		<p>Your bank balance</p>
+	</div>
+	<div class="box">
+		<img src="image/i2.png" class="iconimg" />
+		<i class='bx bx-dots-vertical-rounded dots3' ></i>
+		<h2>7</h2>
+		<p>Progess Sheet</p>
+	</div>
+	<div class="box">
+		<img src="image/i3.png" class="iconimg" />
+		<i class='bx bx-dots-vertical-rounded dots3' ></i>
+		<h2>12</h2>
+		<p>Employee working </p>
+	</div>
+	<div class="box">
+		<img src="image/i4.png" class="iconimg" />
+		<i class='bx bx-dots-vertical-rounded dots3' ></i>
+		<h2>$653222</h2>
+		<p>Card spending</p>
+	</div>
+	<div class="clearfix"></div>
+
+	<div class="chartbox">
+		<h2>Revenue <span>Last 7 Days</span></h2>
+		<canvas id="myChart" width="100%!important"></canvas>
+	</div>
+
+	<div class="clbox" >
+		<div class="clinner">
+			<p>New clients</p>
+			<h1 class="h1">65</h1>
+			<span class="green">+ 30.8%</span>
+		</div>
+		<div class="clinner">
+			<p>Invoices overdue</p>
+			<h1 class="h1">55</h1>
+			<span class="red">- 10.8%</span>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="mailsect">
+		<h2>Recent Emails</h2>
+		<table>
+			<tr>
+				<td><i class='bx bxs-user-circle usericon'></i></td>
+				<td >Manoj Adhikari</td>
+				<td>Meeting Scheduled</td>
+				<td style="text-align: right;">12:30 PM</td>
+			</tr>
+			<tr>
+				<td><i class='bx bxs-user-circle usericon'></i></td>
+				<td >Shivam Adhikari</td>
+				<td>Updating on marketing </td>
+				<td style="text-align: right;">2:30 PM</td>
+			</tr>
+		</table>
+	</div>
+	<div class="clearfix"></div>
+
+</div>
+<!--main-content End --->
+
+
+<!--right-sidebar start --->
+<div class="right-sidebar">
+	<div class="topicon">
+		<i class='bx bx-calendar righticon' ></i>
+	<i class='bx bx-bell righticon redcircle' ></i>
+	<i class='bx bx-message-dots righticon redcircle1'></i>
+	<div class="profile">
+		<img src="image/user.png"/>
+		<i class='bx bx-chevron-down' style="font-size: 25px;"></i>
+	</div>
+
+	</div>
+	<div class="clearfix"></div>
+
+	<div class="boxr">
+		<h3>Formation status</h3>
+		<p>In Progress</p>
+		<div class="progress">
+		  <div class="bar albanian"></div>
+		</div>
+		<div class="boxrbottom">
+			<h4>Estimated processing</h4>
+			<p>4-5 business days</p>
+			<button class="btn">View status</button>
+		</div>
+	</div>
+
+	<h3>Your to-Do list</h3>
+	<ul class="todoul">
+		<li>
+			<i class='bx bx-time' ></i>
+			<p>Review time off request <br/><span>May 23 at 7:00 pm</span></p>
+		</li>
+		<li>
+			<i class='bx bxs-file-doc' ></i>
+			<p>Sign board resolution <br/><span>May 13 at 7:00 pm</span></p>
+		</li>
+		<li>
+			<i class='bx bx-task'></i>
+			<p>Finish onboarding Manoj <br/><span>May 3 at 7:00 pm</span></p>
+		</li>
+	</ul>
+
+	<div class="boardbox">
+		<h3>Borad Meeting</h3>
+		<p class="meet_p">March 23 at 5:00 PM</p>
+		<p class="meet_p1">You have been invited to attend a meeting of the Board Directors.</p>
+	</div>
+
+</div>
+
+<!--right-sidebar End --->
+
+<!--Chart JS File --->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script type="text/javascript" src="js/chart.js"></script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".dirarrow").click(function(){
+			$(".sidebar").addClass('sidebartoggle');
+			$(".dirarrow").hide();
+			$(".dirarrowright").show();
+			$(".sidemenu li a").css('font-size', '0');
+			$(".sidemenu li a .bx").css('font-size', '20px');
+			$(".sidebar h3 span").css('font-size', '0');
+			$(".main-content").css('width', '70%');
+			$(".right-sidebar").css('width', '25%');
+			$(".box").css('width', '22.2%');
+			$(".sidemenu li a .bx").css('padding-left','5px');
+			$(".sidemenu li a .bx").css('padding-right','0px');
+		});
+		$(".dirarrowright").click(function(){
+			$(".sidebar").removeClass('sidebartoggle');
+			$(".dirarrowright").hide();
+			$(".dirarrow").show();
+			$(".sidemenu li a .bx").css('font-size', '20px');
+			$(".sidemenu li a").css('font-size', '16px');
+			$(".sidebar h3 span").css('font-size', '18px');
+			$(".main-content").css('width', '59%');
+			$(".right-sidebar").css('width', '21%');
+			$(".box").css('width', '22%');
+			$(".sidemenu li a .bx").css('padding-left','0px');
+			$(".sidemenu li a .bx").css('padding-right','10px');
+		});
+		$("#mbmenu").click(function(){
+			$(".mobile-menu .sidemenu").toggleClass('hidden');
+		});
+
+	});
+</script>
+
+</body>
+</html>
